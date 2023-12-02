@@ -1,6 +1,4 @@
-:root {
-    --link-hover: blue;
-}
+
 
 h1,
 h2,
@@ -35,10 +33,9 @@ p{
 .navbar-nav {
     margin-top: 10%;
     padding-left: 30px;
-}nload
+}
 
-.navbar-nav a:hover {
-    color: var(-link-hover);
+.navbar-nav a.nav-link:hover {
     font-weight: bolder;
 }
 
