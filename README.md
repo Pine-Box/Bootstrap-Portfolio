@@ -8,8 +8,10 @@ This portfolio is a work in progress and therefore the data used is fake.
 
 ## User Story
 
+```
 As a Hiring Manager I need links to portfolios
 so that I can review them with clients on suitable candidates that meet their needs. 
+```
 
 ## Wireframe
 
@@ -88,3 +90,6 @@ Follow the instructions:
 
 Deliverable:
 
+Follow the link to view the boostrap-portfolio landing page:
+
+[https://pine-box.github.io/Bootstrap-Portfolio/](https://pine-box.github.io/Bootstrap-Portfolio/)
