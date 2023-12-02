@@ -7,9 +7,16 @@ h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 /* skills images */
-.skill-img {
-   max-width: 30% !important;
-   margin: 5%;
+.img-skill {
+   max-width: 30%;
+   margin: 10px 0 0 10px;
 }
 
+
+.card.card-work{
+    display: flex;
+    flex-direction: row;
+}
