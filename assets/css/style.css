@@ -78,13 +78,22 @@ p.welcome-text{
 
 /* work*/
 
+.row.mywork {
+  margin :0;
+}
+
 .img-work {
     max-width: 700px;
     max-height: 300px;
 
 }
 
+.container-fluid.card-cont-mywork{
+    background-color: black;
+}
+
 .card.card-work{
+        background-color: black;
         border: none;
 }
 
