@@ -88,8 +88,10 @@ Follow the instructions:
 
 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
-Deliverable:
+## Deliverable:
 
 Follow the link to view the boostrap-portfolio landing page:
 
 [https://pine-box.github.io/Bootstrap-Portfolio/](https://pine-box.github.io/Bootstrap-Portfolio/)
+
+![Bootstrap-Portfolio Landing Page](https://github.com/Pine-Box/Bootstrap-Portfolio/blob/main/assets/images/bootstrap-portfolio.png)
