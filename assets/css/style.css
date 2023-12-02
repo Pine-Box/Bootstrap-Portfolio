@@ -8,6 +8,35 @@ h6 {
 }
 
 
+.container-fluid{
+    margin: 20px 0 10% 10%;
+}
+
+
+
+/* navbar */
+
+.navbar.customNavBar {
+    position: fixed;
+    width: 100%;
+    max-height: 10%;
+    padding-bottom: 0;
+}
+
+.navbar-nav{
+margin-top: 10%;
+
+}
+
+/*welcome*/
+
+h1#welcome{
+    font-size: 2rem;
+}
+
+.welcome{
+    font-size: 1rem;
+}
 
 /* skills images */
 .img-skill {
@@ -15,8 +44,15 @@ h6 {
    margin: 10px 0 0 10px;
 }
 
+.img-work {
+    max-width: 700px;
+    max-height: 300px;
+
+}
+
 
 .card.card-work{
     display: flex;
     flex-direction: row;
 }
+
