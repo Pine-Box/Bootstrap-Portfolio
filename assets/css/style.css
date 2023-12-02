@@ -1,3 +1,8 @@
+
+:root
+{
+    --link-hover: blue;
+}
 h1,
 h2,
 h3,
@@ -21,28 +26,54 @@ h6 {
     width: 100%;
     max-height: 10%;
     padding-bottom: 0;
+    z-index: 10;
 }
 
 .navbar-nav{
-margin-top: 10%;
+    margin-top: 10%;
+    padding-left: 30px;
+}
 
+.navbar-nav a:hover{
+    color: var(-link-hover);
+    font-weight: bolder;
 }
 
 /*welcome*/
 
-h1#welcome{
-    font-size: 2rem;
+#welcome{
+    max-width: 100%;
+    background-color: grey;
+    margin: 0;
+    max-height: 300px;
 }
 
-.welcome{
+h1#title-welcome{
+    margin-top: 10px;
+    font-size: 1.25rem;
+    color: white;
+}
+
+p.welcome-text{
     font-size: 1rem;
+    padding-right: 20%;
 }
 
-/* skills images */
+/* skills */
+
+.myskills {
+   min-height: 10px;
+   margin-right: 20%;
+    margin-left: 0;
+}
 .img-skill {
    max-width: 30%;
    margin: 10px 0 0 10px;
 }
+
+
+
+/* work*/
 
 .img-work {
     max-width: 700px;
@@ -50,9 +81,7 @@ h1#welcome{
 
 }
 
-
 .card.card-work{
-    display: flex;
-    flex-direction: row;
+
 }
 
