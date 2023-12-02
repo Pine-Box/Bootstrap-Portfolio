@@ -64,13 +64,16 @@ p.welcome-text{
 .myskills {
    min-height: 10px;
    margin-right: 20%;
-    margin-left: 0;
+   margin-left: 0;
 }
 .img-skill {
    max-width: 30%;
    margin: 10px 0 0 10px;
 }
 
+.card.card-myskills{
+    border: none;
+}
 
 
 /* work*/
@@ -82,6 +85,6 @@ p.welcome-text{
 }
 
 .card.card-work{
-
+        border: none;
 }
 
