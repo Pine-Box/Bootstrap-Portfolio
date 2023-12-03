@@ -13,185 +13,222 @@
 </head>
 
 <body>
+
   <!-- Navigation Bar start-->
-  <nav class="navbar customNavBar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar sticky-top customNavBar navbar-expand-lg bg-dark">
     <div class="container-fluid">
+      <!--<a class="navbar-brand" href="#">Navbar</a>  navbar image if needed-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="#myskills"><span>My skills</span></a>
-          <a class="nav-link" href="#mywork"><span>My work</span></a>
-          <a class="nav-link" href="#aboutme"><span>About me</span></a>
+        <ul class="navbar-nav navbar-nav  mb-2 mb-lg-0 ps-2">
+          <li>
+          <a class="nav-link text-white" href="#myskills" alt ="nav link to skills"><span>My skills</span></a>
+          </li>
+          <li>
+          <a class="nav-link text-white" href="#mywork" alt ="nav link to work"><span>My work</span></a>
+          </li>
+          <li>
+          <a class="nav-link text-white" href="#aboutme" alt ="nav link to about me"><span>About me</span></a>
+          </li>
         </div>
-      </div>
+      </ul>
     </div>
   </nav>
   <!-- Navigation Bar end-->
 
   <!-- jumbotron welcome start-->
-  <div class="p-5 lg-12 mb-12 sm-12 welcome" id="welcome">
-    <div class="container-fluid py-3 container-welcome">
-      <h1 class="display-5 fw-bold" id="title-welcome">Welcome to My Portfolio</h1>
-      <p class="fs-6 welcome text-wrap lh-sm welcome-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, hic animi expedita, laudantium iure commodi nisi tempora molestias assumenda asperiores sed iusto nihil culpa, minima quaerat omnis quo. Repellendus, suscipit.</p>
-      <button class="btn btn-primary btn-lg" type="button">Latest project design</button>
+  <div class="container-fluid p-5 bg-light" id="welcome">
+    <div class=" py-3">
+      <h1 class="fw-bold ">Welcome to My Portfolio</h1>
+      <p class="fs-6 welcome text-wrap lh-sm welcome-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Beatae, hic animi expedita, laudantium iure commodi nisi tempora molestias assumenda asperiores sed iusto nihil
+        culpa, minima quaerat omnis quo. Repellendus, suscipit.</p>
+      <a class="btn btn-primary btn-lg" type="button" href="https://pine-box.github.io/Horiseon/starter" target="_blank">Latest project design</a>
     </div>
   </div>
 
   <!-- jumbotron welcome end-->
-
+  <div class="container-fluid m-5">
 
   <!-- cards skills start-->
-  <div class="container-fluid  myskills" >
-      <div class="row" id="myskills">
-        <h2 class="header-myskills p-4"><strong>My Skills</strong></h2>
-        <!--start card 1-->
-        <div class="card-container col-lg-4 col-mb-4 col-sm-12">
-          <div class="card card-myskills">
-            <img src="assets/images/html5.png" class="card-mage-top img-fluid rounded-circle img-skill" alt="">
-            <div class="card-body">
-              <h5 class="card-title">HTML5 Bootcamp veteran</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci, odit quibusdam nemo numquam beatae blanditiis alias deleniti maiores dolores, vitae quo sunt et, earum a ratione nulla nesciunt cupiditate.</p>
-              <a href="https://www.freecodecamp.org/news/tag/html5/" target="_blank" class="btn btn-primary btn-md" alt="Go HTML5 bootcamp!">Go HTML5 bootcamp!</a>
-            </div>
+  <div class="container-fluid myskills">
+    <div class="row" id="myskills">
+      <h2 class="header-myskills p-4"><strong>My Skills</strong></h2>
+      <!--start card 1-->
+      <div class="card-container col-lg-4 col-md-4 col-sm-4 pt-3">
+        <div class="card ">
+          <img src="assets/images/html5.png" target="_blank" class="card-img-top rounded-circle d-none d-md d-md-block" alt="html 5 logo">
+          <div class="card-body mt-3">
+            <h5 class="card-title">HTML5 Bootcamp veteran</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci, odit quibusdam
+              nemo numquam beatae blanditiis alias deleniti maiores dolores, vitae quo sunt et, earum a ratione nulla
+              nesciunt cupiditate.</p>
+            <a href="https://www.freecodecamp.org/news/tag/html5/" target="_blank" class="btn btn-primary btn-md"
+              alt="Go HTML5 bootcamp!">Go HTML5 bootcamp!</a>
           </div>
         </div>
-        <!--end card 1-->
+      </div>
+      <!--end card 1-->
 
-        <!--card 2-->
-        <div class="card-container col-lg-4 col-mb-4 col-sm-12">
-          <div class="card card-myskills">
-            <img src="assets/images/bootstrap5.jpeg" target="_blank" class="card-mage-top img-fluid rounded-circle img-skill" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Boostrap 5 Bootcamp veteran</h5>
-              <p class="card-text">`Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloribus nisi voluptates. Quibusdam, facere sunt reiciendis delectus inventore ex fugiat porro labore placeat consequuntur impedit veritatis nihil recusandae, debitis alias!</p>
-              <a href="./https://www.freecodecamp.org/news/tag/bootstrap/" class="btn btn-primary" alt="Go Bootstrap bootcamp!">Go Bootstrap bootcamp!</a>
-            </div>
+      <!--card 2-->
+      <div class="card-container col-lg-4 col-md-4 col-sm-4 pt-3">
+        <div class="card ">
+          <img src="assets/images/bootstrap5.jpeg" target="_blank"
+            class="card-img-top rounded-circle d-none d-md d-md-block p-3" alt="Bootstrap 5 logo">
+          <div class="card-body">
+            <h5 class="card-title">Boostrap 5 Bootcamp veteran</h5>
+            <p class="card-text">`Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloribus nisi
+              voluptates. Quibusdam, facere sunt reiciendis delectus inventore ex fugiat porro labore placeat
+              consequuntur impedit veritatis nihil recusandae, debitis alias!</p>
+            <a href="./https://www.freecodecamp.org/news/tag/bootstrap/" class="btn btn-primary"
+              alt="Go Bootstrap bootcamp!">Go Bootstrap bootcamp!</a>
           </div>
         </div>
-        <!--end card 2-->
+      </div>
+      <!--end card 2-->
 
-        <!--card 3-->
-        <div class="card-container col-lg-4 col-mb-4 col-sm-12 ">
-          <div class="card card-myskills">
-            <img src="assets/images/aws.png" target="_blank" class="card-mage-top rounded-circle img-fluid img-skill" alt="">
-            <div class="card-body ">
-              <h5 class="card-title bg-transparent">AWS veteran</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, natus animi. Reiciendis voluptatibus nostrum deserunt qui. Ducimus sunt explicabo possimus molestias, tenetur delectus sequi perferendis voluptatem quae unde, quam ut?</p>
-              <a href="https://www.freecodecamp.org/news/tag/aws/" class="btn btn-primary " alt="Go AWS bootcamp!">Go AWS bootcamp!</a>
-            </div>
+      <!--card 3-->
+      <div class="card-container col-lg-4 col-md-4 col-sm-4 pt-3">
+        <div class="card ">
+          <img src="assets/images/aws.png" target="_blank" class="card-img-top rounded-circle d-none d-md d-md-block p-3"
+            alt="aws logo">
+          <div class="card-body mt-3">
+            <h5 class="card-title bg-transparent">AWS veteran</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, natus animi. Reiciendis
+              voluptatibus nostrum deserunt qui. Ducimus sunt explicabo possimus molestias, tenetur delectus sequi
+              perferendis voluptatem quae unde, quam ut?</p>
+            <a href="https://www.freecodecamp.org/news/tag/aws/" class="btn btn-primary " alt="Go AWS bootcamp!">Go AWS
+              bootcamp!</a>
           </div>
         </div>
-        <!--end card 3-->
+      </div>
+      <!--end card 3-->
 
-      </div> <!--end row-->
+    </div> <!--end row-->
   </div> <!--end container-->
 
-    <!-- cards skills end-->
+  <!--cards skills end-->
 
-  <!-- cards work aboutme start-->
-  <div class="container-fluid" >
-    <div class="row" id="mywork"> 
-      <h2 class="header-mywork p-4 " id="mywork"><strong>My Work</strong></h2>
-      <!--start work card 1-->
-      <div class="card-container col-lg-12 col-mb-12 col-sm-12">
-        <div class="card card-work">
-          <img src="assets/images/horiseon.png" class="card-mage-right img-fluid img-work" alt="">
-          <div class="card-body  col-8">
-            <h5 class="card-title">Horiseon Project</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et rerum alias, ratione cumque accusamus minima expedita aut. Temporibus vitae rem iusto qui soluta nam quidem tenetur quas aliquid nostrum!</p>
-            <a href="https://pine-box.github.io/Horiseon/starter" target="_blank"  alt="Last project - Horiseon"  class="btn btn-primary">Go to project</a>
+  <!-- work aboutme start-->
+  <div class="container-fluid">
+    <div class="row" id="mywork">
+      <h2 class="header-mywork m-5" id="mywork"><strong>My Work</strong></h2>
+      <!--start work  1-->
+      <div class="container-lg">
+        <div class="row justify-content align-items-left m-5">
+          <div class="col-md-4 text-center d-none d-md d-md-block">
+            <img src="assets/images/horiseon.png" class="img-fluid rounded" alt="horiseon landing page">
+          </div>
+          <div class="col-md-8 text-left text-md-start p3">
+            <h5 class="pt-2 ps-2 text-md-start"><strong>Horiseon Project</strong></h5>
+            <p class="ps-2 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et rerum alias,
+              ratione cumque accusamus minima expedita aut. Temporibus vitae rem iusto qui soluta nam quidem tenetur
+              quas aliquid nostrum!</p>
+            <a href="https://pine-box.github.io/Horiseon/starter" target="_blank" alt="Last project - Horiseon"
+              class="btn btn-primary">Go to project</a>
           </div>
         </div>
       </div>
-      <!--end work card 1-->
-  
-      <!--start work card 2-->
-      <div class="card-container col-lg-12 col-mb-12 col-sm-12">
-        <div class="card card-work">
-          <img src="assets/images/civil_legal_aid.png" class="card-mage-top img-fluid img-work" alt="">
-          <div class="card-body col-8">
-            <h5 class="card-title">Civil Legal Aid Project</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt labore, molestiae natus veniam fugit sit quia tenetur. Illo architecto corporis necessitatibus esse libero officia. Quae in quo exercitationem esse!</p>
-            <a href="https://www.gov.uk/check-legal-aid" target="_blank"  alt="Past project gov.uk check legal aid" class="btn btn-primary">Go to project</a>
-          </div>
-        </div>
-      </div>
-      <!--end work card 2-->
-  
-      <!--start card work 3-->
-      <div class="card-container col-lg-12 col-mb-12 col-sm-12">
-        <div class="card card-work">
-          <img src="assets/images/courtfinder.png" class="card-mage-top img-fluid img-work" alt="">
-          <div class="card-body col-8 ">
-            <h5 class="card-title">UK Court Finder Project</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam asperiores possimus, maxime laboriosam aut dolor odio nostrum vel eaque accusantium, quasi, eos sunt aperiam maiores eligendi reprehenderit impedit ipsa.</p>
-            <a href="https://www.gov.uk/find-court-tribunal" target="_blank"  alt="Past project gov.uk court finder" class="btn btn-primary">Go to project</a>
-          </div>
-        </div>
-      </div>
-      <!--end work card 3-->
+      <!--end work  1-->
 
-      <!--start about me card 1-->
-      <div class="bg-aboutme" id="aboutme">
-      <div class="card-container aboutme col-lg-12 col-mb-12 col-sm-12">
-        <div class="card  card-aboutme bg-transparent">
-          <div class="card-body col-8 ">
-            <h5 class="card-title text-white">About me!</h5>
-            <p class="card-text p-3 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, pariatur?
-              Deserunt, repudiandae. Placeat voluptates laborum earum neque? Quo praesentium amet quis, omnis accusamus
-              dolores, cumque atque aperiam voluptatum fugiat aliquid!</p>
-            <button href="#" class=" btn btn-outline-light">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
-                viewBox="0 0 16 16">
-                <path
-                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5">
-                </path>
-                <path
-                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z">
-                </path>
-              </svg>
-              Download my resume</button>
+      <!--start work 2-->
+      <div class="container-lg">
+        <div class="row justify-content align-items-left m-5">
+          <div class="col-md-4 text-center d-none d-md d-md-block">
+            <img src="assets/images/civil_legal_aid.png" class="img-fluid rounded" alt="civil legal aid landing page">
           </div>
-          <img src="assets/images/avatar.png" class="card-image-right rounded-circle m-1 p-1" alt="">
+          <div class="col-md-8 text-left text-md-start p3">
+            <h5 class="pt-2 ps-2 text-md-start"><strong>Civil Legal Aid Project</strong></h5>
+            <p class="ps-2 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt labore,
+              molestiae natus veniam fugit sit quia tenetur. Illo architecto corporis necessitatibus esse libero
+              officia. Quae in quo exercitationem esse!</p>
+            <a href="https://www.gov.uk/check-legal-aid" target="_blank" alt="Past project gov.uk check legal aid"
+              class="btn btn-primary">Go to project</a>
+          </div>
         </div>
       </div>
+      <!--end work  2-->
+
+      <!--start card  3-->
+      <div class="container-lg">
+        <div class="row justify-content align-items-left m-5">
+          <div class="col-md-4 text-center d-none d-md d-md-block">
+            <img src="assets/images/courtfinder.png" class="img-fluid rounded" alt="court finder landing page">
+          </div>    
+          <div class="col-md-8 text-left text-md-start p3">
+            <h5 class="pt-2 ps-2 text-md-start">UK Court Finder Project</h5>
+            <p class="ps-2 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam asperiores
+              possimus, maxime laboriosam aut dolor odio nostrum vel eaque accusantium, quasi, eos sunt aperiam maiores
+              eligendi reprehenderit impedit ipsa.</p>
+            <a href="https://www.gov.uk/find-court-tribunal" target="_blank" alt="Past project gov.uk court finder"
+              class="btn btn-primary">Go to project</a>
+          </div>
+        </div>
       </div>
-      <!--end aboutme card 1-->
-  
+      <!--end work 3-->
     </div> <!--end row-->
+    <!--start about me card 1-->
+    <div class="container-lg " id="aboutme">
+      <div class="row justify-content align-items-left bg-light  m-5 ">
+        <div class="col-lg-8 col-md-8  text-left text-md-start p3">
+          <h4 class=" pt-2 ps-2 text-md-start">About me!</h4>
+          <p class="ps-2 text-black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, pariatur?
+            Deserunt, repudiandae. Placeat voluptates laborum earum neque? Quo praesentium amet quis, omnis accusamus
+            dolores, cumque atque aperiam voluptatum fugiat aliquid!</p>
+          <button href="#" class=" btn btn-secondary btn-outline-ligth m3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
+              viewBox="0 0 16 16">
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5">
+              </path>
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z">
+              </path>
+            </svg>
+            Download my resume</button>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center d-none d-md d-md-block">
+          <img src="assets/images/avatar.png" class="img-fluid rounded-circle" alt="author of portfolio">
+        </div>
+      </div>
+    </div>
+    <!--end aboutme card 1-->
 
   </div> <!--end container-->
 
   <!-- cards work aboutme end-->
 
-
+  </div> <!--end of content-->
 
   <!-- footer contact start-->
-<footer class="bg-light text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" style="background-color: #0082ca;" href="https://uk.linkedin.com/" alt="My linked-in portfolio page" role="button"><i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"</i></a>
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" style="background-color: #0082ca;"
+          href="https://uk.linkedin.com/" alt="My linked-in portfolio page" role="button"><i
+            class="fab fa-linkedin-in fa-2x" style="color: #0082ca;" </i></a>
 
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" style="background-color: #ffac44;" href="https://github.com" alt="My Github repo" role="button"><i class="fab fa-github fa-2x" style="color: #ffac44;"></i></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" style="background-color: #ffac44;" href="https://github.com"
+          alt="My Github repo" role="button"><i class="fab fa-github fa-2x" style="color: #ffac44;"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 Copyright:
-    <a class="text-white" href="https://MDBootstrap.com">dreamteam.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://MDBootstrap.com">dreamteam.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
   <!-- footer contact end-->
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
