@@ -85,7 +85,7 @@ p.welcome-text {
 /* work*/
 
 .img-work{
-    max-width: 30%;
+    width: 30%;
     margin: 10px 0 0 10px;
 }
 
@@ -108,7 +108,7 @@ p.welcome-text {
     border: none;
     display: flex;
     flex-direction: row;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     
 }
 
@@ -121,3 +121,4 @@ p.welcome-text {
 .btn.btn-aboutme{
     border-color: white;
 }
+
