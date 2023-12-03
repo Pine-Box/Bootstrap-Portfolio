@@ -95,7 +95,6 @@ p.welcome-text {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
 /* about me */
@@ -109,7 +108,7 @@ p.welcome-text {
     border: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     
 }
 
@@ -118,9 +117,6 @@ p.welcome-text {
     margin: 10px 10px 0 10px;
     padding: 10px;
 }
-
-
-
 
 .btn.btn-aboutme{
     border-color: white;
