@@ -44,8 +44,7 @@ p{
 #welcome {
     max-width: 100%;
     background-color: grey;
-    margin: 0;
-    max-height: 300px;
+    height: 300px;
 }
 
 h1#title-welcome {
@@ -101,16 +100,26 @@ p.welcome-text {
 
 /* about me */
 
+.bg-aboutme {
+    background-color: grey;
+    max-height: fit-content;
+}
+
+.card.card-aboutme {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
 .img-aboutme {
     max-width: 30%;
     margin: 10px 10px 0 10px;
     padding: 10px;
 }
 
-.bg-aboutme{
-    background-color: grey;
-    max-height: fit-content;
-}
+
 
 
 .btn.btn-aboutme{
